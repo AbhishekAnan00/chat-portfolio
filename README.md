@@ -1,3 +1,6 @@
+
+![Image](https://github.com/user-attachments/assets/7d786d7a-057e-4d5a-83af-32af60e3f093)
+
 # AI-Powered Project Suite
 
 This repository contains three major projects that leverage artificial intelligence to streamline workflow, enhance code quality, and improve user interactions. The projects include:
@@ -72,5 +75,4 @@ Clone the repository:
 git clone https://github.com/yourusername/your-repo.git
 cd chat-portfolio
 npm run dev
-
 
