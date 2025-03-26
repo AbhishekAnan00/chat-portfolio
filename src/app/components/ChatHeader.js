@@ -12,9 +12,8 @@ export default function ChatHeader({ botTyping }) {
       setLastSeen(formattedTime);
     }
   }, [botTyping]);
-
   return (
-    <div className="flex items-center p-4 bg-[#075E54] text-white shadow">
+    <div className="flex items-center p-4 bg-[#15443D] text-white shadow">
       <Image
         src="/photo.png" 
         alt="Photo"
@@ -23,7 +22,7 @@ export default function ChatHeader({ botTyping }) {
         className="rounded-full"
       />
       <div className="ml-4">
-        <div className="text-lg font-bold">Abhishek A</div>
+        <div className="text-lg font-bold">Abhishek Anand</div>
         <div className="text-sm">
           {botTyping ? (
             <span className="text-[#25D366]">typing...</span>

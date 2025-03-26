@@ -6,7 +6,7 @@ const ProjectsContainer = styled.div`
   color: white;
   padding: 15px;
   border-radius: 12px;
-  max-width: 80%;
+  width:full;
 `;
 
 const GithubButton = styled.a`
@@ -25,9 +25,11 @@ const GithubButton = styled.a`
 const ProjectsUI = () => {
   return (
     <ProjectsContainer>
-      <p>Many finished & unfinished 😅</p>
+      <p>Many finished & unfinished 🙂</p>
+      <br/>
       <p>As of now, you can just jump into my GitHub account.</p>
-      <GithubButton href="https://github.com/yourgithub">
+      <br/>
+      <GithubButton href="https://github.com/AbhishekAnan00">
         <FaGithub size={20} />
       </GithubButton>
     </ProjectsContainer>

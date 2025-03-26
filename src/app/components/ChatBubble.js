@@ -1,32 +1,26 @@
 export default function ChatBubble({ sender, text }) {
   const isUser = sender === "user";
-
-  if (!isUser) {
-    return (
-      <div className="flex justify-start">
-        <div
-          className="rounded-lg p-3 max-w-xs mb-2"
-          style={{
-            backgroundColor: "#0B141A", 
-            color: "#fff",
-          }}
-          dangerouslySetInnerHTML={{ __html: text }}
-        />
-      </div>
+  const content =
+    typeof text === "string" ? (
+      <span dangerouslySetInnerHTML={{ __html: text }} />
+    ) : (
+      text
     );
-  }
+
   return (
-    <div className="flex justify-end">
+      <div className={`flex ${isUser ? "justify-end" : "justify-start"}` } 
+>
       <div
         className="rounded-lg p-3 max-w-xs mb-2"
         style={{
-          backgroundColor: "#DCF8C6", 
-          color: "#000",
+          backgroundColor: isUser ? "#DCF8C6" : "#0B141A",
+          color: isUser ? "#000" : "#fff",
         }}
       >
-        {text}
+        {content}
       </div>
     </div>
   );
 }
+
 
