@@ -14,7 +14,7 @@ export default function ChatInput({ onSend }) {
     <form
       onSubmit={handleSubmit}
       className="flex items-center p-2 bg-white border-t border-gray-300"
-      style={{background:"#15443D"}}
+      style={{background:"#0B1C22"}}
     >
       <input
         type="text"
@@ -23,7 +23,7 @@ export default function ChatInput({ onSend }) {
         placeholder="Type a message..."
         className="flex-1 p-2 rounded-full  focus:outline-none text-white"
       />
-      <button type="submit" className="ml-2 bg-[#075E54] text-white p-2 rounded-full">
+      <button type="submit" className="ml-2 bg-[#0B1C22] text-white p-2 rounded-full">
       <MdSend size={24} color="#fff" />
       </button>
     </form>

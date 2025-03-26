@@ -13,7 +13,7 @@ export default function ChatHeader({ botTyping }) {
     }
   }, [botTyping]);
   return (
-    <div className="flex items-center p-4 bg-[#15443D] text-white shadow">
+    <div className="flex items-center p-4 bg-[#0B1C22] text-white shadow">
       <Image
         src="/photo.png" 
         alt="Photo"
