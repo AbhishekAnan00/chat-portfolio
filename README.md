@@ -72,7 +72,7 @@ A versatile conversational AI assistant that interacts with users to answer tech
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/AbhishekAnan00/chat-portfolio.git
 cd chat-portfolio
 npm run dev
 
