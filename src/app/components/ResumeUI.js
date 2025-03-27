@@ -26,7 +26,7 @@ const ResumeUI = () => {
   return (
     <ResumeContainer>
       <p>Resume to be updated fully !!!</p>
-      <DownloadButton href="/resume.pdf" download>
+      <DownloadButton href="/Abhishek-Anand-Resume.pdf" download>
         <FaFilePdf size={20} style={{ marginRight: '8px' }} />
         Download Resume
       </DownloadButton>
